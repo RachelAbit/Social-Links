@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(to left, #5AB2FF, #A0DEFF, #CAF4FF);
+}
+.container{
+    width: 380px;
+    /* border: 1px solid black; */
+    height: 480px;
+    display: flex;
+    margin: auto;
+    background-color: #ffff;
+    opacity: 28%;
+    margin-top: 4%;
+    border-radius: 10px;
+}
