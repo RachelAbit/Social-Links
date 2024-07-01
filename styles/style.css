@@ -1,14 +1,59 @@
 body{
     background: linear-gradient(to left, #5AB2FF, #A0DEFF, #CAF4FF);
+    font-family: Inter;
 }
 .container{
-    width: 380px;
+    width: 320px;
     /* border: 1px solid black; */
-    height: 480px;
+    height: 460px;
     display: flex;
+    /* flex-direction: row; */
     margin: auto;
-    background-color: #ffff;
-    opacity: 28%;
-    margin-top: 4%;
+    background-color: hsl(0,100%, 100%, 0.3);
+    margin-top: 2%;
     border-radius: 10px;
+    justify-content: center;
+    padding: 35px;
+}
+figure .profile{
+   width: 65px;
+   border-radius: 50%;
+}
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-weight: 700;
+    font-size: clamp(14px, 3vw, 20px);
+    margin-top: 20px;
+}
+h2{
+    font-weight: 600;
+    font-size: clamp(5px, 2vw, 12px);
+    margin-top: 14px;
+}
+p{
+    font-size: clamp(12px, 2vw, 14px);
+    margin-top: 30px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+button{
+    padding: 13px 88px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgb(128, 212, 245);
+    cursor: pointer;
+    transition: .14s;
+    font-size: clamp(12px, 2vw, 15px);
+}
+button:hover{
+    background-color: white;
 }
