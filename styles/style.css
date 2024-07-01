@@ -9,12 +9,12 @@ main{
 .container{
     width: min(30ch, 50%);
     /* border: 1px solid black; */
-    height: min(100ch, 80%);
+    height: min(46ch, 72%);
     display: flex;
     /* flex-direction: row; */
     margin: auto;
     background-color: hsl(0,100%, 100%, 0.3);
-    margin-top: 5%;
+    margin-top: 9%;
     border-radius: 10px;
     justify-content: center;
     padding: 35px;
