@@ -9,7 +9,7 @@ main{
 .container{
     width: min(30ch, 50%);
     /* border: 1px solid black; */
-    height: min(46ch, 72%);
+    height: min(47ch, 83%);
     display: flex;
     /* flex-direction: row; */
     margin: auto;

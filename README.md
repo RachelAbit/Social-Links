@@ -12,3 +12,8 @@ Users should be able to:
 
 ![design/desktop.png](design/desktop.png)
 ![design/mobile.png](design/mobile.png)
+
+### Links
+
+- Solution URL: [https://github.com/RachelAbit/Social-Links](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
