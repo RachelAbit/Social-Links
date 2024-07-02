@@ -62,3 +62,7 @@ button{
 button:hover{
     background-color: white;
 }
+button:focus{
+    background-color: transparent;
+    border: 1px solid rgb(18, 123, 192);
+}
