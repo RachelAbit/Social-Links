@@ -1,20 +1,20 @@
 body{
     background: linear-gradient(to left, #5AB2FF, #A0DEFF, #CAF4FF);
     font-family: Inter;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-main{
-    width: 100%;
-    height: 100vh;
-}
+
 .container{
-    width: min(30ch, 50%);
+    width: min(28ch, 60%);
     /* border: 1px solid black; */
     height: min(47ch, 83%);
     display: flex;
     /* flex-direction: row; */
     margin: auto;
     background-color: hsl(0,100%, 100%, 0.3);
-    margin-top: 9%;
     border-radius: 10px;
     justify-content: center;
     padding: 35px;
